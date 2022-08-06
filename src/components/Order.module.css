@@ -1,0 +1,245 @@
+.bodyOrder{
+   position: relative; 
+}
+
+.order{
+    position: absolute;
+    width: 100vw;
+    height: calc(100vh + 180px);
+    z-index: 2;
+    background: white;
+}
+
+.icon{
+    overflow: hidden;
+    background: white;
+    right: -25px;    
+    top: -8px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.title{
+    display: flex;
+    padding: 30px 30px 30px 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.items{
+
+}
+.item{
+    display: flex;
+}
+
+
+.item:nth-child(3){
+    margin-top: 30px;
+    
+   
+}
+
+.item:nth-child(4){
+    margin-top: 30px;
+}
+
+.itemTitle{
+    margin-top: 10px;
+    display: flex;
+}
+
+.itemTitle:last-child{
+    margin-right: 110px;
+}
+
+.itemSubTitle{
+    margin-left: 15px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.itemTtileSubMain{
+    opacity: 1;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.prise{
+    opacity: 1;
+    font-weight: bold;
+}
+
+
+.itemImg{
+    width: 150px;
+    height: 200px;
+}
+
+
+.choose{
+    font-size: 14px;
+}
+
+.squereSize{
+    width: 49px;
+    height: 30px;
+    border: 1px solid black;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.squereSize p{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.squereSize p:hover{
+    background: #000;
+    color: white;
+    width: 50px;
+    padding-bottom: 75px;
+}
+
+.squereSize:first-child{
+    margin-left: 15px;
+}
+
+.totalClothes{
+    display: flex;
+    margin-left: 730px;
+    flex-direction: column;
+    padding: 10px 0 10px 0;
+    position: relative;
+}
+
+.squerePlus{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    position: relative;
+    margin-bottom: 93px;
+}
+
+.squerePlus p{
+    position: absolute;
+    top: 2px;
+    left: 9px;
+}
+
+.itemSubNumber{
+    font-size: 18px;
+    margin-bottom: 85px;
+}
+
+.squereMinus{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.squereMinus p{
+    position: absolute;
+    top: 2px;
+    left: 11px;
+}
+
+.img{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    margin-left: 30px;
+    padding-left: 5px;
+}
+
+.squereColor{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+.squereColor:first-child{
+    margin-left: 15px;
+}
+
+.squereColor:hover{
+    border: 2px solid lightgreen;
+}
+
+
+
+.color1{
+    background: lightgrey;
+}
+
+.color2{
+    background: #000;
+}
+
+.color3{
+    background: darkgreen;
+}
+
+.color4{
+    background: #000;
+}
+
+.color5{
+    background: deepskyblue ;
+}
+
+.color6{
+    background: orange;
+}
+
+.buttons{
+    margin-top: 15px;
+    border-top: 1px solid lightgrey;
+    width: 100%;
+    margin-right: 20px;
+   
+}
+
+.btnTitle{
+     padding: 30px 30px 0 10px;
+}
+
+.price{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.bold{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.btns{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btn{
+    height: 40px;
+    width: 240px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    background: lightgreen;
+    border: none;
+    color: white;
+}
+
+.btn:hover{
+    border: 1px solid black;
+}
+
+
+
+

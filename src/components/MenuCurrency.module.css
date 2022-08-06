@@ -1,0 +1,34 @@
+.menu{
+    transform: translateX(-1000%);
+}
+
+.active{
+    transform: translateX(0);
+    position: relative;
+    z-index: 99;
+}
+
+.icon{
+    position: absolute;
+    top: -9px;
+    right: 25px;
+    width: 70px;
+    height: 100px;
+    background: white;
+    box-shadow: 2px 1px  3px black;
+    overflow: hidden;
+}
+
+.title{
+    text-align: center;
+    color: black;
+}
+
+.title p{
+    padding: 7px 0;
+
+}
+
+.title p:hover{
+    background: lightgrey;
+}

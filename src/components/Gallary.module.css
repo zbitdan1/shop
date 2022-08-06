@@ -1,0 +1,49 @@
+.body{
+    padding: 70px 0;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.title{
+
+}
+
+.icons{
+    height: calc(100vh - 210px);
+    padding: 70px;
+}
+
+.iconsAbove{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+
+.iconsBelow{
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+.icon img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.icon a img{
+    text-decoration: none;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+
+}
+
+.icon p:last-child{
+    font-weight: bold;
+}

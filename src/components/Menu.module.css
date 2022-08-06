@@ -1,0 +1,211 @@
+.menu{
+    transform: translateY(0);
+    opacity: 0;
+}
+
+.active{
+    position: relative;
+    z-index: 99;
+    transform: translateY(-100%);
+}
+
+.blur{
+    border-top: 1px solid black;
+    background: lightgrey;
+    opacity: 0.5;
+    position: absolute;
+    height: calc(100vh + 80px);
+    top: -10px;
+    width: 1875px;
+    right: -257px;
+}
+
+.icon{
+    overflow: hidden;
+    position: absolute;
+    width: 350px;
+    min-height: 600px;
+    background: white;
+    right: -25px;    
+    top: -8px;
+}
+
+.title{
+    display: flex;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item{
+    width: 165px;
+    min-height: 100px;
+}
+
+
+.item:nth-child(3){
+    margin-top: 30px;
+}
+
+.item:nth-child(4){
+    margin-top: 30px;
+}
+
+.itemTitle{
+    margin-top: 10px;
+    display: flex;
+}
+
+.itemSubTitle{
+    margin-left: 15px;
+    opacity: 0.6;
+}
+
+.prise{
+    opacity: 1;
+    font-weight: bold;
+}
+
+.squere{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    margin-left: 80px;
+    position: relative;
+}
+
+.squere p{
+    position: absolute;
+    top: -3px;
+    left: 4px;
+}
+
+.itemImg{
+    width: 150px;
+    height: 200px;
+}
+
+.itemSubNumber{
+    margin-left: 105px;
+}
+
+.choose{
+    font-size: 14px;
+}
+
+.squereSize{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+.squereSize p{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.squereSize p:hover{
+    background: #000;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.squereSize:first-child{
+    margin-left: 15px;
+}
+
+.squereColor{
+    width: 16px;
+    height: 16px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+.squereColor:first-child{
+    margin-left: 15px;
+}
+
+.squereColor:hover{
+    border: 2px solid lightgreen;
+}
+
+.squereMinus{
+    margin-left: 48px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.squereMinus p{
+    position: absolute;
+    top: -3px;
+    left: 6px;
+}
+
+.color1{
+    background: lightgrey;
+}
+
+.color2{
+    background: #000;
+}
+
+.color3{
+    background: darkgreen;
+}
+
+.color4{
+    background: #000;
+}
+
+.color5{
+    background: deepskyblue ;
+}
+
+.color6{
+    background: orange;
+}
+
+.buttons{
+    padding: 30px;
+}
+
+.btnTitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnTitle p{
+    font-weight: bold;
+}
+
+.btns{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    height: 40px;
+    width: 140px;
+    text-transform: uppercase;
+}
+
+.btn1{
+    background: none;
+    border: 1px solid black;
+}
+
+.btn2{
+    background: lightgreen;
+    border: 1px solid black;
+}
